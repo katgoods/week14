@@ -36,12 +36,13 @@ Answer the following questions about the HTTP request and response process.
     - Post
 
 7. Which type of HTTP request method is used for sending data?
-    Post (sends new data).
+    - Post (sends new data).
 
 8. Which part of an `HTTP request` contains the data being sent to the server?
-    -
+    - Headers
 
 9. In which part of an HTTP response would the browser receive the web code to generate and style a web page?
+    - 
 
 #### Using cURL
 
