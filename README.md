@@ -29,7 +29,7 @@ Answer the following questions about the HTTP request and response process.
     - Response Body
 
 5. Which number class of status codes represent errors?
-    -400's and 500's
+    - 400's and 500's
 
 6. What are the two most common request methods that a security professional will come across?
     - Get
@@ -42,21 +42,26 @@ Answer the following questions about the HTTP request and response process.
     - Headers
 
 9. In which part of an HTTP response would the browser receive the web code to generate and style a web page?
-    - 
+    - Content-Type
 
 #### Using cURL
 
 Answer the following questions about `curl`:
 
 10. What are the advantages of using curl over the browser?
+    - It uses one of the supporting protocols without user interaction. So if you're looking for a container with no UI, you can use curl in the commandline.
 
 11. Which curl option is used to change the request method?
+    - curl --request www.website.com
 
 12. Which curl option is used to set request headers?
+    - curl --head www.website.com
 
 13. Which curl option is used to view the response header?
+    - curl -I www.website.com
 
 14. Which request method might an attacker use to scope out usable HTTP requests that an HTTP server will accept?
+    - 
 
 #### Sessions and Cookies
 
