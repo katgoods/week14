@@ -147,19 +147,25 @@ X-XSS-Protection: 1; mode=block
     - Yes (SessionID=5)
 
 24. What kind of content is likely to be in the [page content] response body?
-    - 
+    - Text/html
 
 25. If your class covered security headers, what security request headers have been included?
+    - Strict-Transport-Security: max-age=31536000; includeSubDomains
 
 #### Monoliths and Microservices
 
 Answer the following questions about monoliths and microservices:
 
 26. What are the individual components of microservices called?
+    - Front-end server
+    - Back-end server
+    - Database
 
 27. What is a service that writes to a database and communicates to other services?
+    - Back-end server
 
 28. What type of underlying technology allows for `microservices` to become scalable and have redundancy?
+    - API...? Containers?
 
 #### Container Vulnerability Filtering
 
