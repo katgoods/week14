@@ -61,7 +61,7 @@ Answer the following questions about `curl`:
     - curl -I www.website.com
 
 14. Which request method might an attacker use to scope out usable HTTP requests that an HTTP server will accept?
-    - 
+    - curl -X POST ...
 
 #### Sessions and Cookies
 
