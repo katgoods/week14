@@ -172,26 +172,34 @@ Answer the following questions about monoliths and microservices:
 Answer the following questions about vulnerability filtering `Trivy` scans with `jq`:
 
 29. Do `microservices` share the same kind of vulnerabilities as regular operating systems?
+    - Not really. Microservices are separate compnents, which allows for different levels of security in each area. However, that security still requires proper configuration.
 
 30. Would an organization be more concerned with `Low` severity vulnerabilities as much as `Critical`?
+    - They should be. 'low' severity attacks can be combined with other attacks. Some attacks considered low severity include cookie persistence, grabbing version numbers of applications; an attacker could carry out a low-level attack just to get an error message that might reveal more information about the servers.
 
 31. Would the bash tool `jq` be useful in finding certain kinds of vulnerabilities within a vulnerability report?
+    - Yes. Jq is the command line tool that inspects .json files and helps parse out data and search for specified information.
 
 #### Deploying and Testing a Container Set
 
 Answer the following questions about multi-container deployment:
 
 32. What is a tool that can be used to deploy multiple containers at once?
+    - Docker allows you to deploy multiple containers at once.
 
 33. What kind of file format was required for us to deploy a container set?
+    - .yml files using ansible-playbook command.
 
 #### Container Runtime Intrusion Detection Systems
 
 34. What is a tool used to actively detects intrusion behavior within containers?
+    - Falco is one (open-source CIDS alert tool).
 
 35. What high-value system file might an intruder view that would trigger a `sensitive file opening` alert?
+    - /etc/shadow
 
 36. What kind of intruder action might trigger an alert from a container IDS that says `shell configuration file has been modified`?
+    - Adding a user.
 
 ---
 
