@@ -76,6 +76,7 @@ Answer the following questions about sessions and cookies.
     Content-type: text/html
     Set-Cookie: cart=Bob
     ```
+    - Set-Cookie: cart=Bob
 
 16. Which request header sets a cookie in the client?
 
@@ -84,6 +85,7 @@ Answer the following questions about sessions and cookies.
     Host: www.example.org
     Cookie: cart=Bob
     ```
+    - Cookie: cart=Bob
 
 #### Example HTTP Requests and Responses
 
@@ -105,12 +107,16 @@ username=Barbara&password=password
 ```
 
 17. What was the request method?
+    - Post
 
 18. Was the request encrypted or unencrypted?
+    - Unencrypted (not HTTPS)
 
 19. Does the request have a user session associated to it?
+    - Yes
 
 20. What kind of data is being sent from this request body.
+    - Login information
 
 #### HTTP Response Example
 
@@ -132,12 +138,16 @@ X-XSS-Protection: 1; mode=block
 ```
 
 21. What was the response status code?
+    - 200 OK
 
 22. Was the response encrypted or unencrypted?
+    - Unencrypted
 
 23. Does this response have a user session associated to it?
+    - Yes (SessionID=5)
 
 24. What kind of content is likely to be in the [page content] response body?
+    - 
 
 25. If your class covered security headers, what security request headers have been included?
 
