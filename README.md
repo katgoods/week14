@@ -55,13 +55,13 @@ Answer the following questions about `curl`:
     - curl --request www.website.com
 
 12. Which curl option is used to set request headers?
-    - curl --head www.website.com
+    - curl -v -H ...
 
 13. Which curl option is used to view the response header?
     - curl -I www.website.com
 
 14. Which request method might an attacker use to scope out usable HTTP requests that an HTTP server will accept?
-    - curl -X POST ...
+    - curl -v www.website.com
 
 #### Sessions and Cookies
 
@@ -165,7 +165,7 @@ Answer the following questions about monoliths and microservices:
     - Back-end server
 
 28. What type of underlying technology allows for `microservices` to become scalable and have redundancy?
-    - API...? Containers?
+    - Containers allow microservices to become scalable and redundant. Containers aren't resource heavy and are easy to deploy. The fact that they are separated from each other allows one to continue working if another container goes down. 
 
 #### Container Vulnerability Filtering
 
